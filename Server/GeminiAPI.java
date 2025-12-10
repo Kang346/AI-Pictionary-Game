@@ -9,7 +9,7 @@ import java.time.Duration;
  */
 public class GeminiAPI {
     // API key hardcoded here
-    private static final String API_KEY = "AIzaSyCPTUj52OLm1KzXsoElzeHm-CvcQAh4B3c";
+    private static final String API_KEY = "YOU_GEMINI_API";
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=" + API_KEY;
     
     private HttpClient httpClient;
